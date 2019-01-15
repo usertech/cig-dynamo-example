@@ -1,0 +1,18 @@
+{
+  "name": "cig-dynamo",
+  "version": "1.0.0",
+  "description": "Serverless dynamo example",
+  "main": "create.js",
+  "scripts": {
+    "start": "sls offline start"
+  },
+  "author": "U+",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.387.0",
+    "serverless-offline": "^3.32.2"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
